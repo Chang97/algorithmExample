@@ -31,9 +31,6 @@ public class Hive {
 			}
 		}
 		System.out.println(cnt);
-		
-		
-
 	}
 
 }

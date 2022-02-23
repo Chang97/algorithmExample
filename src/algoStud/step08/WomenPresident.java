@@ -16,6 +16,9 @@ public class WomenPresident {
 			int k = Integer.parseInt(sc.nextLine()) + 1; // Ãþ
 			int n = Integer.parseInt(sc.nextLine()); // È£¼ö
 			
+			if (k >= 1 && n <= 14)
+				return;
+			
 			int[][] arr = new int[k][n];
 			for ( int j = 0; j < n; j++ ) {
 				arr[0][j] = j + 1; // 0Ãþ ¼Â
